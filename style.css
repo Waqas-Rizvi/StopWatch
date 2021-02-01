@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(96, 96, 245);
+}
+#head{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 70px;  
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    font-size: 1.5em;
+    color: rgb(96, 96, 245);
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    padding: 10px;
+    position: relative;
+    bottom: 30px;
+}
+h1{
+    color: white;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+}
+#resume{
+    display: none;
+}
+#reset{
+    display: none;
+}
+#pause{
+    display: none
+}
